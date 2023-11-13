@@ -1,0 +1,28 @@
+Q1) If A is false and B is true, then which of the following expressions is false?
+	answer: B) A or A and B
+
+Q2) The expression     (math.trunc(1.5) - 15%3 ) < 2   is
+	answer: True
+
+Q3) What is the R value after the code below executes, if Q=5 and T=2?
+	answer: 4
+
+Q4) What is the C value after the code below executes, if B=60 and C=30?
+	answer: 3
+
+Q5) Which command is usually used to repeat a set of commands an unknown number of times?
+	answer: while
+
+Q6) Which of the following for statement will run 10 times :
+	answer: for i in range(21,31): && for i in range(11,1,-1):
+
+Q7) which of the following loops will not run forever :
+	answer: while 1: && for i in x:
+				x.append(1)
+
+Q8) What would appear on the screen after the execution of the following script:
+	answer: 1
+		2
+		3
+
+
