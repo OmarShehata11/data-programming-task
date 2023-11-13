@@ -1,17 +1,19 @@
-def Check(soap, meal):
-    vegetables = ["vegetables", "mushroom", "mashed potatoes"]
-    
-    for i in vegetables:
-        if i in soap or i in meal:
-            print("she loves vegetables\n")
-            return 
-    
+soup_menu = ["vegetables", "seafood", "mushroom"]
+meal_menu = ["burger", "grilled chicken", "mashed potatoes"]
+
+vegetables = ["vegetables", "mushroom", "mashed potatoes"]
+
+print(f"soup menu: {soup_menu}\nmeal menu: {meal_menu}\n")
+
+soup = input("soup: ")
+meal = input("meal: ")
+
+if soup in vegetables and meal in vegetables:
+    print("she loves vegetables\n")
+elif soup in vegetables or meal in vegetables:
+    print("she neither hates or loves vegetables\n")
+else:
     print("she hates vegetables\n")
-    
 
 
-soap = input("soap: ").split()
-meal = input("meal: ").split()
 
-
-Check(soap, meal)
