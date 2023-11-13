@@ -1,0 +1,29 @@
+Q1) What is the output of the following print statements?
+	1) The value of pi = 3.14
+	2) pi = 22/7 = 3.142
+	3) Invalid syntax
+
+Q2) Complete the “for” loop in order to print formatted integers as follows:
+	*) for i in range(998, 1002):
+		print(i)
+
+Q3) What is the output of the following program:
+	*) the output: 3.863   3.86    3.9
+			4       3
+	
+	*) what's the difference? : the difference that %.0f printing the nearst value to the float point, but %d only print the decimal one not the nearst 
+
+
+Q4) Write one python state
+	*) the code:
+print("""My name is Ahmed
+Friends call me "Mido :)"
+I don't like apples\\bananas\peaches """)
+
+Q5) What is the output of the following program?:
+	*) ouput: 
+Hello. My name is ahmed. I am from Cairo
+['Hello.', 'My', 'name', 'is', 'ahmed.', 'I', 'am', 'from', 'Cairo']
+['Hello. My name is ahmed. I am from Cairo']
+['Hello', ' My name is ahmed', ' I am from Cairo']
+['Hello', 'My name is ahmed', 'I am from Cairo']
