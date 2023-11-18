@@ -1,0 +1,7 @@
+Q1:What is wrong in the following function implementation? Suggest a fix for it.
+	A: the name of the function should be followed by ":", and also the return has no meaning, it should return
+	   the variable "sum".
+
+Q2:What will be the value of   foo1(5) given the following function definitions?
+	A: 15
+
