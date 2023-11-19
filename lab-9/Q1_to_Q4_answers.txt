@@ -1,0 +1,35 @@
+Q1) Write one assignment statement that will accomplish exactly the same thing as the given code (assume that the variable X has been initialized with int values):
+	a) result = sum(X)
+	b) result = sum([y for y in x if y %2!=0])
+	c) result = sum([1 for y in x if y > 0])
+	d) result = any(y < 0 for y in x)
+
+Q2) What is the problem with the following code? Fix it then write the code output
+	answer: that it will go forever, the solution is when it calls the same func again, it should decrement the value of N:
+def sumVal(N):
+    if N<=0:
+        return 0
+    return N+sumVal(N-1)
+
+print( sumVal(4))
+
+
+Q3) What is the output of following code? What does function f do?
+	answer: - the output:12
+		             3
+		- what does it do : this function finds the biggest number that can be devided by both parameters. like the biggest number that can be divided by 60 and 48 is 12, and so on ..
+
+
+Q4) What is the output of following code? Write down your trace steps
+	answer: - the output: 2 3 4 10
+		- the trace: will the calling to the function is similar to contructing a stack, so the first call will check if the list is empty, and if not it will print the first elemnt and call the same function but with skipping the first elemnt in the list and so on..
+
+		- the modification :
+def shoList(a):
+	if a ==[]
+		return 
+	showList(a[1:])
+	print(a[0])
+showList([2, 3, 4, 10])
+
+
